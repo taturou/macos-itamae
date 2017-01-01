@@ -1,3 +1,6 @@
+# これはなに？
+
+[itamae](http://itamae.kitchen/) を使って macOS Sierra のCLI環境を整えるものです。
 
 # 環境
 
