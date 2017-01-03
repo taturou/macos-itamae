@@ -1,5 +1,6 @@
 include_recipe "../cookbooks/itamae-plugin-recipe-homebrew/default.rb"
 include_recipe "../cookbooks/itamae-plugin-resource-brew/default.rb"
+include_recipe "../cookbooks/itamae-plugin-resource-cask/default.rb"
 include_recipe "../cookbooks/bash/default.rb"
 include_recipe "../cookbooks/git/default.rb"
 include_recipe "../cookbooks/screen/default.rb"
