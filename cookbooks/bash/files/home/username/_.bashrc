@@ -35,8 +35,8 @@ alias less='less -M'
 
 alias eng='LANG=C LANGUAGE=C LC_ALL=C'
 
-#@ alias lv='lv -Ou8'
-#@ alias less='lv -Ou8'
+alias lv='lv -Ou8'
+alias less='lv -Ou8'
 
 # user file-creation mask
 umask 022
@@ -81,7 +81,7 @@ alias pstree="/usr/local/bin/pstree -p `ps x|grep '\<screen\>'|grep -v grep|awk 
 alias tags='ctags -R -B .; gtags'
 
 # git
-#@ export GIT_PAGER='lv -c'
+export GIT_PAGER='lv -c'
 alias gitb='git b'
 alias gits='git s'
 alias gitd='git d'
