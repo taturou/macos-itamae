@@ -70,7 +70,7 @@ function greplist
 # using ps (not pstree)
 #alias pstree="/bin/ps aufx|grep `id -u`|sed -e 's/\(\<ps\>\|\<grep\>\|\<sed\>\).*/####/'"
 # os x
-alias pstree="pstree -p `ps x|grep screen|grep -v grep|sed -e 's/^ *//'|sed -e 's/ .*$//'`"
+alias pstree="/usr/local/bin/pstree -p `ps x|grep '\<screen\>'|grep -v grep|awk '{print $1}'`"
 
 # macvim-kaoriya
 #@ export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
