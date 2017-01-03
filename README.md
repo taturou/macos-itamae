@@ -1,6 +1,6 @@
 # これはなに？
 
-[itamae](http://itamae.kitchen/) を使って macOS Sierra のCLI環境を整えるものです。
+[itamae](http://itamae.kitchen/) を使って macOS Sierra のCLI環境を構築するものです。
 
 # 環境
 
@@ -14,14 +14,12 @@ $ gem -v
 # インストール
 
 ```bash
-$ sudo gem install itamae
-```
-
-```bash
 $ git clone https://github.com/taturou/macos-itamae.git ~/.itamae
+$ cd ~/.itamae
+$ . ./install.sh
 ```
 
-# 実行
+# 環境構築
 
 ```bash
 $ cd ~/.itamae
