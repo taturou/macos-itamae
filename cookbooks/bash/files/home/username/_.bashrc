@@ -72,10 +72,9 @@ function greplist
 # os x
 alias pstree="/usr/local/bin/pstree -p `ps x|grep '\<screen\>'|grep -v grep|awk '{print $1}'`"
 
-# macvim-kaoriya
-#@ export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
-#@ alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
-#@ alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
+# vim
+export EDITOR=/usr/local/bin/vim
+alias vi=/usr/local/bin/vim
 
 # ctags
 alias tags='ctags -R -B .; gtags'
