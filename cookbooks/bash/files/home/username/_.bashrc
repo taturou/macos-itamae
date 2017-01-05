@@ -46,7 +46,7 @@ umask 022
 export PS1="[\W]$WINDOW\$ "
 
 # pager
-#@ export PAGER=lv
+export PAGER=lv
 
 # lang
 #@ export LANG='ja_JP.UTF-8'
@@ -102,12 +102,6 @@ s() {
         sudo "$@"
     fi
 }
-
-# rbenv
-if which rbenv > /dev/null
-then
-    eval "$(rbenv init -)"
-fi
 
 ## Ctrl-s しても画面への出力を停止させない
 stty stop undef
