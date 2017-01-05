@@ -34,6 +34,9 @@ if [ $? != 0 ]; then
   rbenv rehash
 fi
 
+# set global version to ruby 2.4.0
+rbenv global 2.4.0
+
 # set local version to ruby 2.4.0
 cd ~/.itamae
 rbenv local 2.4.0
