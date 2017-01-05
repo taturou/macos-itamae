@@ -3,3 +3,4 @@
 . ./cookbooks/ruby/recipe.sh
 . ./cookbooks/itamae/recipe.sh
 . ./cookbooks/homebrew/recipe.sh
+. ./cookbooks/node.js/recipe.sh
