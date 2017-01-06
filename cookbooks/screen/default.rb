@@ -6,6 +6,7 @@ itamae_root="#{node[:home_macos]}/#{node[:user]}/#{node[:itamae_root]}"
 # install
 brew 'homebrew/dupes/screen' do
   user "#{node[:user]}"
+  not_if "test -d /usr/local/Cellar/screen"
 end
 
 # screenrc
